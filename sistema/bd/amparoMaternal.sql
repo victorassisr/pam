@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 18-Jun-2018 às 02:07
+-- Generation Time: 22-Jun-2018 às 16:40
 -- Versão do servidor: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -91,7 +91,9 @@ CREATE TABLE `despesas` (
 
 INSERT INTO `despesas` (`idDespesa`, `idCategoria`, `infoDespesa`, `reais`, `centavos`, `data`) VALUES
 (1, 3, 'alimentacao', 123, 34, '2018-04-15'),
-(2, 3, 'Ali', 234, 48, '2018-04-22');
+(2, 3, 'Ali', 234, 48, '2018-04-22'),
+(3, 6, 'Teste', 213, 0, '0000-00-00'),
+(4, 7, 'casa', 20000, 0, '2018-06-23');
 
 -- --------------------------------------------------------
 
@@ -124,6 +126,29 @@ INSERT INTO `doacao` (`id_doacao`, `id_tipoDoacao`, `item_doacao`, `id_campanha`
 (5, 7, 'Ropunhasd', 7, 1, '2018-03-15', 5, 0, 0, 5),
 (6, 8, 'Dinheiro', 1, 1, '2018-04-22', 0, 145, 50, 2),
 (7, 7, 'Roupas', 14, 7, '2018-06-17', 1, 0, 0, 5);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `doacoespag`
+--
+
+CREATE TABLE `doacoespag` (
+  `id` int(11) NOT NULL,
+  `status` int(255) NOT NULL,
+  `data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `valor` varchar(100) NOT NULL,
+  `cpf` varchar(100) NOT NULL,
+  `codigo` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Doacões realizadas pelo Pag Seguro';
+
+--
+-- Extraindo dados da tabela `doacoespag`
+--
+
+INSERT INTO `doacoespag` (`id`, `status`, `data`, `valor`, `cpf`, `codigo`) VALUES
+(1, 4, '2018-06-22 03:00:00', '220.00', '114345678-90', 'asdas-asd-asd-asdasd-asdasd'),
+(2, 4, '2018-06-22 03:00:00', '145.50', '123.123.344-89', 'ghffg-ghgdhgfha-dsafdsfdsf-dasf');
 
 -- --------------------------------------------------------
 
@@ -401,6 +426,12 @@ ALTER TABLE `doacao`
   ADD PRIMARY KEY (`id_doacao`);
 
 --
+-- Indexes for table `doacoespag`
+--
+ALTER TABLE `doacoespag`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `doador`
 --
 ALTER TABLE `doador`
@@ -466,12 +497,17 @@ ALTER TABLE `categoriasdespesa`
 -- AUTO_INCREMENT for table `despesas`
 --
 ALTER TABLE `despesas`
-  MODIFY `idDespesa` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idDespesa` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `doacao`
 --
 ALTER TABLE `doacao`
   MODIFY `id_doacao` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `doacoespag`
+--
+ALTER TABLE `doacoespag`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `doador`
 --
