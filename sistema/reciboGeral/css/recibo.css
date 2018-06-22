@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	user-select: none;
+}
+.recibo{
+	box-sizing: border-box;
+	width: 1000px;
+	margin: 40px auto;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #333;
+	position: relative;
+	z-index: 10;
+}
+
+.divAltera{
+	margin-top: 60px;
+}
+
+#btn-print{
+	display: block;
+	margin: 0 auto;
+}
+
+.alteraRecibo{
+	width: 200px;
+}
+
+.logo{
+	width: 150px;
+	float: left;
+	border: 1px solid #333;
+	border-radius: 4px;
+	height: 137px;
+	overflow: hidden;
+}
+
+.logo img{
+	width: 150px;
+	height: 137px;
+}
+
+.cabecalho{
+	width: 845px;
+	float: right;
+	border: 1px solid #333;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+h3{
+	border-bottom: 1px solid #333;
+}
+
+.lei{
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+
+.endereco, .contato{
+	font-size: 12px;
+}
+
+.corpoRecibo{
+	border: 1px solid #333;
+	border-radius: 4px;
+	padding: 6px;
+	margin-top: 4px;
+	font-size: 12px;
+}
+
+.mensagem p{
+	padding: 0;
+	margin: 0;
+}
+
+.mensagem{
+	width: 49.888%;
+	float: left;
+}
+
+.assinatura{
+	width: 49.888%;
+	float: right;
+}
+
+.valor{
+	width: 100%;
+}
+
+.serie{
+	font-size: 1em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.txt{
+	font-size: 135%;
+}
+
+.numeroRecibo{
+	color: #F00;
+	margin-left: 35px;
+}
+
+.campoValor{
+	border: 1px solid #333;
+	border-radius: 4px;
+	padding: 4px 7px;
+}
+
+.ass{
+	border-bottom: 1px solid #333;
+}
+
+.ass, .assNome{
+	margin: 0;
+}
+
+.informacoes{
+	border-bottom: 1px solid #333;
+	margin-bottom: 15px;
+}
+
+.blk{
+	display: block !important;
+}
+
+
+@media print{
+	.no-print{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+}

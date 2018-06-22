@@ -1,0 +1,24 @@
+.erro{
+	margin-top: 60px;
+	padding: 20px;
+	background-color: #333;
+	color: #FFF;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.labelBlock{
+	display: block;
+}
+
+#reaisADoar{
+	max-width: 200px;
+	display: inline-block;
+}
+
+#centavosADoar{
+	max-width: 100px;
+	display: inline-block;
+}

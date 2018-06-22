@@ -1,0 +1,7 @@
+.botaoAcao{
+	cursor: pointer;
+	border-style: outset;
+	border-width: 2px;
+	border-color: buttonface;
+	border-image: initial;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastrar Doadores</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="imagens/amparo.png"></a>
+			</div>
+
+
+			<div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="doadores.html">Doadores</a></li>
+					<li><a href="campanha.html">Campanhas</a></li>
+					<li><a href="despesa.html">Despesas</a></li>
+					<li><a href="relatorio.html">Relatórios</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+	<h2>Cadastro de Doador</h2>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				
+	<form method="post">
+
+		<fieldset class="form_contato">
+
+
+			<div class="campo">
+
+				<label>Nome do doador: </label><br>
+				<input type="text" size="70" id="txt_nome" name="txt_nome" placeholder="Nome completo">
+			</div>
+
+			<div class="campo">
+				<label>Endereço: </label><br>
+				<input type="text" size="70" id="txt_end" name="txt_end" placeholder="Endereço completo">
+			</div>
+
+			<div class="campo">
+				<label>E-mail: </label><br>
+				<input type="email" size="70" id="txt_email" name="txt_email" placeholder="Digite o seu e-mail">
+			</div>
+
+			<div class="campo" style="margin-left: 5%;">
+				<label>Telefone: </label>
+				<input type="maxlength" id="txt_number" name="txt_number" placeholder="Digite o Telefone">
+			</div>
+
+			<div class="campo" style="margin-top: -25px; margin-left: 30%;">
+
+				<input type="radio" value="F"> Pessoa Fisica
+				<input type="radio" name="sexo" value="J"> Pessoa Juridica
+
+			</div>
+
+
+			<div class="campo" style="margin-left: 35%;">
+				<label>Data de nascimento: </label>
+				<input type="date" id="txt_data" name="txt_data" placeholder="">
+			</div>
+			<div class="campo" style="margin-top: -28px; margin-left: 5%;">
+				<label>Data de cadastro: </label>
+				<input type="date" id="txt_data" name="txt_data" placeholder="">
+			</div>
+
+
+			<div class="campo" style="margin-left: 20%;">
+				<label>Categoria:</label>
+				
+				<select name="cidade">
+					<option>Categoria do doador</option>
+					<option value="Fidelizado">Fidelizado</option>
+					<option value="Esporádico">Esporádico</option>
+					<option value="Anual">Anual</option>
+				</select>
+
+			</div>
+			<div class="campo"  style=" margin-top: 45px; margin-left: 35%;">
+
+				<label>Operadora </label><br>
+				<input type="text" id="txt_nome" name="txt_nome">
+			</div>
+
+			<div class="campo" style="margin-top: -47px; margin-left: 5%;">
+
+				<label>Turma </label><br>
+				<input type="text" id="txt_nome" name="txt_nome">
+			</div>
+				<br>
+				<br>
+				<br>
+				<br>
+		
+			<button type="submit" style="margin-left: 42%; width: 150px; background: #2F4F4F; border-radius: 5px; color: white;">Enviar</button>
+
+		</fieldset>
+	</form>
+			</div>
+		</div>
+
+	
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+				<div class="copyright">
+					<h4>AMPARO MATERNAL - EURÍPEDES NOVELINO</h4>
+				</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

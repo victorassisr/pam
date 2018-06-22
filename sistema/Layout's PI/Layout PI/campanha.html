@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Campanhas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="imagens/amparo.png"></a>
+			</div>
+
+
+			<div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="doadores.html">Doadores</a></li>
+					<li><a href="campanha.html">Campanhas</a></li>
+					<li><a href="despesa.html">Despesas</a></li>
+					<li><a href="relatorio.html">Relatórios</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+	<h2>Cadastro de Campanha</h2>
+
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="campo">
+
+				<label>Nome da campanha:</label>
+				<input type="text" id="txt_nome" name="txt_nome" placeholder="Campanha">
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="campo">
+
+				<label>Data de inicio</label>
+				<input type="date" id="txt_data" name="txt_data" placeholder="Ex: 12/03/95">
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="campo">
+
+				<label>Data de cadastro:</label>
+				<input type="date" id="txt_date" name="txt_date" placeholder="Ex: 13/03/97">
+				<span id="msg_nome"></span>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<button class="botao" type="submit" style="color: white;">Cadastrar</button>
+			</div>
+		</div>
+
+
+	<h2 class="ativo">Campanhas Ativas</h2>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table tabela1">
+			  <tbody>
+			    <tr>
+			      <td class="td">Campanha 01<a href=""><i class="fa fa-eyedropper" style="color: black; width: 20px; margin-left: 600px;"></i></a> <a href=""><i class="fa fa-close" style="color: black; width: 20px; margin-left: 60px;"></i></a></td>
+			    </tr>
+			    <tr>
+			      <td class="td">Campanha 02<a href=""><i class="fa fa-eyedropper" style="color: black; width: 20px; margin-left: 600px;"></i></a> <a href=""><i class="fa fa-close" style="color: black; width: 20px; margin-left: 60px;"></i></a></td>
+			    </tr>
+			    <tr>
+			      <td class="td">Campanha 03<a href=""><i class="fa fa-eyedropper" style="color: black; width: 20px; margin-left: 600px;"></i></a> <a href=""><i class="fa fa-close" style="color: black; width: 20px; margin-left: 60px;"></i></a></td>
+			    </tr>
+			    <tr>
+			      <td class="td">Campanha 04<a href=""><i class="fa fa-eyedropper" style="color: black; width: 20px; margin-left: 600px;"></i></a> <a href=""><i class="fa fa-close" style="color: black; width: 20px; margin-left: 60px;"></i></a></td>
+			    </tr>
+			  </tbody>
+			</table>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+				<div class="copyright">
+					<h4>AMPARO MATERNAL - EURÍPEDES NOVELINO</h4>
+				</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

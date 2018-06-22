@@ -1,0 +1,15 @@
+.erro{
+	color: #F00;
+	text-align: center;
+}
+
+.formLogin{
+	border: 1px solid #ccc;
+	margin-top: 70px !important;
+	padding: 30px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+body{
+	margin-bottom: 80px;
+}

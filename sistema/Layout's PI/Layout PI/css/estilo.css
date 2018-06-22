@@ -1,0 +1,150 @@
+body{
+	max-width: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.navbar{
+	background: #2F4F4F;
+	padding: 25px 0px;
+	border-bottom: #303b41  solid 1px;
+
+}
+.menu > ul > li{
+	font-size: 14px;
+}
+
+.navbar-brand > img{
+	width: 200px;
+	height: 170px;
+	margin-top: -44px;
+	margin-left: -40%;
+}
+
+.nav > li > a{
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 3px;
+	margin-left: 136px;
+
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: #2c7873;
+	color: #ffffff;
+
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.icon-bar{
+	background: #ffffff;
+}
+
+.navbar-toggle{
+	border-color: #ffffff;
+}
+.table{
+	margin: auto;
+	margin-top: 260px;
+	width: 80%;
+	height: 200px;
+
+	
+}
+.titulo{
+	background: #66CDAA;
+}
+th{
+	color: white;
+}
+.tabela{
+	background: #696969;
+}
+.letra{
+	color: white;
+}
+.grafico{
+	margin-top: 80px;
+}
+.legenda{
+	margin-top: 190px;
+}
+.legenda > li{
+	font-size: 20px;
+}
+.copyright{
+	margin-top: 300px;
+	background: #082725;
+	color: #ffffff;
+	padding: 30px 0px;
+	text-align: center;
+
+}
+.botao1{
+	width: 20%;
+	height: 60px;
+	margin-top: 220px;
+	margin-left: 40%;	
+	background: white;
+}
+.botao2{
+	width: 20%;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 40%;
+	background: white;
+}
+.campo{
+	margin-left: 25%;
+	margin-top: 80px;
+	width: 50%;
+}
+.buscar{
+	margin-top: 39px;
+	background:#66CDAA;
+	font-size: 15px;
+	color: white;
+	border-radius: 8px; 
+	margin-left: 80px;
+}
+h2{
+	text-align: center;
+	margin-top: 200px;
+}
+.campo{
+	margin-top: 50px;
+}
+.botao{
+	background: #66CDAA;
+	margin-left: 40%;
+	margin-top: 55px;
+	width: 20%;
+	height: 35px;
+	border-radius: 10px;
+
+}
+.ativo{
+	margin-top: 100px;
+}
+.tabela1{
+	border-radius: 10px;
+	background: #D3D3D3;
+	margin-top: 40px;
+}
+.td{
+	font-size: 20px;
+	color: black;
+}
+th{
+	color: black;
+}
+.pesquisa{
+	margin-left: 410px;
+}
+.campo{
+	text-align: center;
+}

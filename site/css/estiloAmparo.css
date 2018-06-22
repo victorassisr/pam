@@ -1,0 +1,271 @@
+html{
+	max-width: 100%;
+	height: 100%;
+}
+body{
+	max-width: 100%;
+	width: 100%;
+	background-color: #f0fff0;
+	background-image: url("https://www.transparenttextures.com/patterns/subtle-dark-vertical.png");
+}
+header{
+	margin-bottom: 1%;
+}
+
+#btn-pags{
+	border: none;
+	background: none;
+}
+
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 998;
+}
+.menu-fixo > div > a > img{
+	visibility: visible !important; 
+}
+.menu-fixo > div > ul{
+	width: 85% !important;
+	float: right;
+}
+
+.centralizarIcone{
+	vertical-align: middle;
+}
+
+.class-active a.active{
+	background: #AFD40E;
+	color: white;
+	text-shadow: 1px 0px 0px black, 
+                 -1px 0px 0px black, 
+                 0px 1px 0px black, 
+                 0px -1px 0px black;
+}
+.side-nav{
+	width: 250px;
+	background: #008973;
+}
+#logo{
+	visibility: hidden;
+	height: 60px;
+	padding-left: 25%;
+}
+.nav-wrapper{
+	overflow: hidden;
+	padding-right: 10px;
+	background: #AFD40E; /* Old browsers */
+	background: -moz-linear-gradient(left, #0ed46f  0%, #2f9237  50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #0ed46f  0%,#2f9237  50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #0ed46f  0%,#008973  50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ed46f ', endColorstr='#008973 ',GradientType=1 ); /* IE6-9 */
+}
+.nav-wrapper > ul > li > a{
+	font-family:"Caveat Brush",cursive, 'Arial';
+	font-size: 18pt;
+}
+.nav-wrapper > ul > li > a{
+	color: #FFF;
+}
+
+.estilos > h1{
+	text-align: center;
+	font-size: 32pt;
+	font-family:"Caveat Brush";
+	color: white;
+	background-color: #008973;
+	padding: 0.5%;
+}
+.estilos > h3{
+	text-align: left;
+	font-size: 28pt;
+	font-family: "Caveat Brush";
+	color: #008973;
+}
+.estilos > p{
+	font-weight: none;
+	font-size: 13pt;
+	text-align: justify;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.estilos li{
+	font-weight: none;
+	font-size: 13pt;
+	text-align: justify;
+	list-style-type: disc;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.estilos > div > span{
+	font-size: 25pt;
+}
+.div-caixa{
+	margin-left: 10%;
+}
+.bb{
+	min-width: 90px;
+	max-width: 150px;
+
+}
+.pagseguro > form > input[type="image"]{
+	width: 60%;
+	margin: auto;
+	display: block;
+}
+.pagseguro > form > input[type="image"]:hover{
+	opacity: 0.6;
+}
+.page-footer {
+	text-align: center;
+	background-color: #34524d !important;
+}
+
+#logo-footer{
+	height: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-sup-nav{
+	display: block;
+	width: 70%;
+	min-width: 250px;
+}
+.pagseguro-sup{
+	margin-top: 2%;
+}
+.phone-sup{
+	margin-top: 2%;
+	font-size: 14pt;
+}
+#conteudo{
+	width: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#centered-text{
+	font-family: "Caveat Brush";
+	text-align: center;
+}
+
+#barra-superior{
+	height: 30%;
+	background: #FFFFFF;
+	/*font-family: "Caveat Brush";
+	background-color: #AFD40E;*/
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#nav-width{
+	width: 100%;
+}
+
+#li-style{
+	text-align: center;
+	width: 25%;
+}
+
+#left-content{
+	background-color: white;
+	border: solid transparent 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*border-radius: 2px 50px;
+	float: left;*/
+}
+
+#right-content{
+	background-color: white;
+	border: solid transparent 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 30px;
+/*	float: right;
+	border-radius: 2px 50px;
+	position: fixed;
+	top: 12%;
+	right: 3%;*/
+}
+#right-content > div > img{
+	max-width: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 280px){
+	#logo-sup-nav, .pagseguro-sup > form > input[type="image"]{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 600px){
+	#right-content{
+		margin-left: -10px;
+		width: 100%;
+		margin-top: 3%;
+	
+	}
+	#left-content{
+		width: 100%;
+	}
+	.row .col.m4 > iframe {
+		overflow: hidden;
+	}
+	.pagseguro > form > input[type="image"]{
+		width: 50%;
+		margin-top: 5%;
+	}
+	.pagseguro{
+		width: 100%;
+		margin: auto;
+		display: block;
+	}
+	.bb{
+		margin-left: 10px;
+		width: 40%;
+	}
+	.page-footer > .container > .row > div{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 640px){
+	#barra-superior > div{
+		width: 100%;
+		margin: auto;
+		display: block;
+	}
+	.pagseguro-sup{
+		width: 100% !important;
+		margin: auto;
+		display: block;
+	}
+	#logo-sup-nav, .pagseguro-sup > form > input[type="image"]{
+		margin: auto;
+		display: block;
+	} 
+	.page-footer > .container > .row > div{
+		width: 100%;
+	}	
+}
+@media only screen and (max-width: 950px){
+	.phone-sup{
+		display: none;
+	}
+}
+@media only screen and (max-width: 992px){
+	.side-nav{
+		max-width: 250px;
+	}
+}
+@media only screen and (max-width: 992px) and (min-width: 601px){
+	.pagseguro{
+		width: 100%;
+		margin: auto;
+		display: block;
+	}
+	.pagseguro > form > input[type="image"]{
+		width: 75%;
+	}
+
+}	

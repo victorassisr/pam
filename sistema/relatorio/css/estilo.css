@@ -1,0 +1,74 @@
+input{
+	border-radius: .20rem;
+	border: 1px solid #cecece;
+}
+.btn{
+	margin: auto;
+	display: block;
+	color: #FFF;
+	background: #2F4F4F;
+}
+.titulo{
+	padding: 10px;
+	border-bottom: 1px solid #cecece;
+}
+.dropdown-ativo-bb{
+	background-color: #2F4F4F;
+	border-bottom: 1px solid #FFF;
+}
+
+.dropdown-ativo-bt-bb{
+	background-color: #2F4F4F;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.dropdown-ativo-bt{
+	background-color: #2F4F4F;
+	border-top: 1px solid #FFF;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.msgErro{
+	color: #F00 !important;
+}
+
+.w-100{
+	width: 100%;
+}
+.sel{
+	padding: 7px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.icon-excluir{
+	cursor: pointer;
+}
+.icon-excluir:hover{
+	color: #F00;
+}
+/******************/
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg-dark{
+	color: #FFF;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+.barraTipo{
+background-color: #c2edb1;
+font-weight: bold;
+}
+.content{
+margin-left: 5%;
+margin-right: 5%;
+}

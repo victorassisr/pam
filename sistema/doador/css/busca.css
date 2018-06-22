@@ -1,0 +1,9 @@
+.m-auto{
+	width: auto;
+	margin: 10px auto !important;
+	display: block;
+}
+
+.p-20{
+	padding: 20px;
+}

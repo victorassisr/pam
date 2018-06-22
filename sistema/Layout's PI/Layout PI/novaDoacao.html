@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nova Doação</title>
+	<title>Listar Doadores</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="imagens/amparo.png"></a>
+			</div>
+
+
+			<div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="doadores.html">Doadores</a></li>
+					<li><a href="campanha.html">Campanhas</a></li>
+					<li><a href="despesa.html">Despesas</a></li>
+					<li><a href="relatorio.html">Relatórios</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+	<h2>Doação</h2>
+
+
+		<div class="row" >
+			<div class="col-md-12">
+				<form>
+					<fieldset class="form_doacao">
+						<div class="campo" size="30" style="margin-left: 40%;">
+				
+							<select name="doacao">
+								<option>Dinheiro</option>
+							</select>
+						</div>
+						<div class="campo" style="margin-top: -23px; margin-left: 20%;">
+
+							<label>Valor: </label>
+							<input type="text" size="10" id="dinheiro" name="dinheiro" placeholder="R$ 000,00">
+						</div>
+
+							<div class="campo" size="30" style="margin-left: 40%;">
+							<select name="doacao">
+								<option>Alimento</option>
+							</select>
+							</div>
+						<div class="campo" style="margin-top: -23px; margin-left: 20%;">
+
+							<label>Quantidade:  </label>
+							<input type="text" size="10" id="dinheiro" name="dinheiro">
+						</div>
+						<div class="campo" style="margin-top: 50px; margin-left: 21%;">
+							<label>Data de doação: </label>
+							<input type="date" id="txt_data" name="txt_data" placeholder="">
+						</div>
+						<div class="campo" size="30" style="margin-left: 18%;">
+							<label>Campanha: </label>
+							<select name="doacao">
+								<option>Campanha 01</option>
+							</select>
+						</div>
+						<br>
+						<button type="submit" style="margin-left: 42%; width: 150px; background: #2F4F4F; border-radius: 5px; color: white;">Enviar</button>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+
+
+</body>
+</html>
